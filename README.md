@@ -1,4 +1,5 @@
 # Agdir.GlobalFieldId
+[![.NET](https://github.com/AgdirAS/global-field-id/actions/workflows/dotnet.yml/badge.svg)](https://github.com/AgdirAS/global-field-id/actions/workflows/dotnet.yml)
 
 .NET support for GlobalFieldId™ - a human-friendly, case-insensitive identifier format. GlobalFieldId™ is a trademark of
 Varda AG.

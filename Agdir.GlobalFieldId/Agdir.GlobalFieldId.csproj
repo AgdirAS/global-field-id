@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageId>Agdir.GlobalFieldId</PackageId>
+        <RepositoryUrl>https://github.com/AgdirAS/global-field-id</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <Version>1.0.3</Version>
         <Authors>Agdir AS</Authors>
         <Description>.NET support for GlobalFieldId™ - a human-friendly, case-insensitive identifier format. GlobalFieldId™ is a trademark of Varda AG</Description>
