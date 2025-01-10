@@ -50,7 +50,7 @@ builder.OwnsMany(x => x.Fields)
 
 ## Format
 
-- `[A-HJ-NP-Z0-9]{4}.[A-HJ-NP-Z0-9]{4}`
+- `[A-Z0-9]{4}.[A-Z0-9]{4}`
 - Only capital letters and numbers
 - Letters I and O are never used to avoid confusion with numbers
 - Dot separator

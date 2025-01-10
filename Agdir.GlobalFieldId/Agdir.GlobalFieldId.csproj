@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>Agdir.GlobalFieldId</PackageId>
+        <Version>1.0.3</Version>
+        <Authors>Agdir AS</Authors>
+        <Description>.NET support for GlobalFieldId™ - a human-friendly, case-insensitive identifier format. GlobalFieldId™ is a trademark of Varda AG</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://www.varda.ag/global-field-id</PackageProjectUrl>
+        <PackageTags>id identifier globalfieldid gfid</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0"/>
+    </ItemGroup>
+</Project>
